@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_shared_review_items",
+  "info": {
+    "displayName": "review_item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "date": {
+      "type": "string"
+    },
+    "fullname": {
+      "type": "string"
+    },
+    "stars": {
+      "type": "decimal"
+    },
+    "review_text": {
+      "type": "text"
+    },
+    "link": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

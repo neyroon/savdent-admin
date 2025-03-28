@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_videos",
+  "info": {
+    "displayName": "videos",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "video_item": {
+      "displayName": "video_item",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.video-item"
+    }
+  }
+}

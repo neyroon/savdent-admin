@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "blok_rabotnikis",
+  "info": {
+    "singularName": "blok-rabotniki",
+    "pluralName": "blok-rabotnikis",
+    "displayName": "Блок Работники",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "workers_slider": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.workers-slider"
+    }
+  }
+}

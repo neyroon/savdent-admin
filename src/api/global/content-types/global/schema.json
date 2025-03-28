@@ -4,7 +4,7 @@
   "info": {
     "singularName": "global",
     "pluralName": "globals",
-    "displayName": "Global",
+    "displayName": "Глобальное",
     "description": "Define global settings"
   },
   "options": {
@@ -20,7 +20,11 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": ["images", "files", "videos"]
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
     },
     "siteDescription": {
       "type": "text",

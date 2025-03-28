@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_certificates",
+  "info": {
+    "displayName": "certificates",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "certificate_item": {
+      "displayName": "certificate_item",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.certificate-item"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_shared_certificate_items",
+  "info": {
+    "displayName": "certificate_item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cert": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
