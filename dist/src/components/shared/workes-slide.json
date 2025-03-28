@@ -1,0 +1,33 @@
+{
+    "collectionName": "components_shared_workes_slides",
+    "info": {
+        "displayName": "workes-slide",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "description": {
+            "type": "string"
+        },
+        "image": {
+            "type": "media",
+            "multiple": false,
+            "required": false,
+            "allowedTypes": [
+                "images",
+                "files",
+                "videos",
+                "audios"
+            ]
+        },
+        "certificates": {
+            "displayName": "certificates",
+            "type": "component",
+            "repeatable": false,
+            "component": "shared.certificates"
+        }
+    }
+}

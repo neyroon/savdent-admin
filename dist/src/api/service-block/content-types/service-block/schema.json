@@ -1,0 +1,20 @@
+{
+    "kind": "singleType",
+    "collectionName": "service_blocks",
+    "info": {
+        "singularName": "service-block",
+        "pluralName": "service-blocks",
+        "displayName": "Блок Услуг",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "attributes": {
+        "tabs": {
+            "type": "component",
+            "repeatable": false,
+            "component": "shared.taby"
+        }
+    }
+}

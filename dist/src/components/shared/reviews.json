@@ -1,0 +1,16 @@
+{
+    "collectionName": "components_shared_reviews",
+    "info": {
+        "displayName": "reviews",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "review_item": {
+            "displayName": "review_item",
+            "type": "component",
+            "repeatable": true,
+            "component": "shared.review-item"
+        }
+    }
+}

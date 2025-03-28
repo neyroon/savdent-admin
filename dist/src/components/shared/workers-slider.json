@@ -1,0 +1,15 @@
+{
+    "collectionName": "components_shared_workers_sliders",
+    "info": {
+        "displayName": "workers-slider"
+    },
+    "options": {},
+    "attributes": {
+        "workers_slide": {
+            "displayName": "workes-slide",
+            "type": "component",
+            "repeatable": true,
+            "component": "shared.workes-slide"
+        }
+    }
+}

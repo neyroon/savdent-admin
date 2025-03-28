@@ -1,0 +1,16 @@
+{
+    "collectionName": "components_shared_taby",
+    "info": {
+        "displayName": "Табы",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "tab": {
+            "displayName": "Таб",
+            "type": "component",
+            "repeatable": true,
+            "component": "shared.tab"
+        }
+    }
+}

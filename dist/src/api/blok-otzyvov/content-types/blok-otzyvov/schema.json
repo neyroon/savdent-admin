@@ -1,0 +1,25 @@
+{
+    "kind": "singleType",
+    "collectionName": "blok_otzyvovs",
+    "info": {
+        "singularName": "blok-otzyvov",
+        "pluralName": "blok-otzyvovs",
+        "displayName": "Блок Отзывов",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "attributes": {
+        "videos": {
+            "type": "component",
+            "repeatable": false,
+            "component": "shared.videos"
+        },
+        "reviews": {
+            "type": "component",
+            "repeatable": false,
+            "component": "shared.reviews"
+        }
+    }
+}

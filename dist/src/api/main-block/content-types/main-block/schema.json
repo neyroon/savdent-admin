@@ -1,0 +1,26 @@
+{
+    "kind": "singleType",
+    "collectionName": "main_blocks",
+    "info": {
+        "singularName": "main-block",
+        "pluralName": "main-blocks",
+        "displayName": "Блок Главный",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "attributes": {
+        "slide": {
+            "type": "component",
+            "repeatable": true,
+            "component": "shared.slide"
+        },
+        "title_h1_markdown": {
+            "type": "richtext"
+        },
+        "description_markdown": {
+            "type": "richtext"
+        }
+    }
+}

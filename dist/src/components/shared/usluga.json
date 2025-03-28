@@ -1,0 +1,22 @@
+{
+    "collectionName": "components_shared_usluga",
+    "info": {
+        "displayName": "Услуга",
+        "icon": "book"
+    },
+    "options": {},
+    "attributes": {
+        "name": {
+            "type": "string"
+        },
+        "value": {
+            "type": "string"
+        },
+        "contains": {
+            "type": "string"
+        },
+        "price": {
+            "type": "string"
+        }
+    }
+}
