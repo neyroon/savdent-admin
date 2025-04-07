@@ -23,6 +23,9 @@
         "videos",
         "audios"
       ]
+    },
+    "removeButton": {
+      "type": "boolean"
     }
   }
 }
